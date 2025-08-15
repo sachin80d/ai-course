@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PolySans Neutral';
+    src: url('font-files/PolySans-Neutral.woff2') format('woff2'),
+         url('font-files/PolySans-Neutral.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'PolySans Neutral';
+    letter-spacing: 0.5px;
+    line-height: normal;
+}

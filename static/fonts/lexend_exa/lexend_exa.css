@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('font-files/LexendExa-VariableFont_wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lexend Exa', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    letter-spacing: 0.5px;
+    line-height: normal;
+}

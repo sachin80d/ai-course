@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "Nifty 925",
+    "description": " nifty 925 Strategy is a high-risk, high-reward trading approach designed for intraday trading in the Nifty index. This strategy involves deploying a straddle at 9:25 AM, utilizing the current weekly contract of Nifty.\n\n Strategy Overview\n\n- nifty 9:25A:M \n  - Shorting Calls and Puts: Both call and put options at the same strike price are sold.\n  \n Market Conditions\n\nThis strategy is most effective in a sideways market, offering maximum profit potential. It can still yield reasonable returns in a unidirectional market. However, caution is warranted during volatile market conditions, as significant and erratic price swings can lead to substantial losses.\n\n Trading Mechanics\n\n- Intraday Focus: The strategy is strictly for intraday trading, which eliminates overnight risk.\n- Exit Timing: All positions must be closed by 14:15 PM to ensure that no positions are held at market close.\n- Stop-Loss Mechanism: A stop-loss is incorporated based on movements in the Nifty index to mitigate risk.\n\n Risks Involved\n\n nifty 925 Strategy carries a high level of risk due to the selling of options. While stop-losses help manage potential losses and mitigate the \"unlimited loss\" aspect, it is crucial to understand that losses can be unpredictable and cannot be quantified to a specific figure.",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2550.84,
+      "AverageProfitPerTrade": 826.82,
+      "AverageProfitPerWinningTrade": 2621.2,
+      "Expectancy": 0.32,
+      "LosingRatio": 34.69,
+      "MaximumDrawdown": -23790.0,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 13788.75,
+      "MaximumWinningStreak": 16,
+      "MinimumProfitInSingleTrade": -16200.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 202571.25,
+      "ReturnOverMaximumDrawdown": 8.59,
+      "RewardToRiskRatio": 1.03,
+      "WinningRatio": 65.31
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.411",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 350000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Momentum Buying",
+    "description": "Nifty Momentum buying  Strategy is an effective approach for traders looking to exploit short-term price movements in the market. By focusing on trend identification, confirmation signals for entry, and disciplined risk management techniques, traders can maximize their potential profits while minimizing risks associated with market volatility. This strategy emphasizes quick decision-making and active monitoring, making it suitable for both novice and experienced traders aiming to capitalize on market momentum.\n\nDay : Mon,Tue,Wed,Thus,Fri",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2836.61,
+      "AverageProfitPerTrade": 438.44,
+      "AverageProfitPerWinningTrade": 5590.2,
+      "Expectancy": 0.15,
+      "LosingRatio": 61.14,
+      "MaximumDrawdown": -65962.5,
+      "MaximumLosingStreak": 10,
+      "MaximumProfitInSingleTrade": 34507.5,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -6952.5,
+      "NumberOfTrades": 229,
+      "OverallProfit": 100402.5,
+      "ReturnOverMaximumDrawdown": 1.53,
+      "RewardToRiskRatio": 1.97,
+      "WinningRatio": 38.86
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:04.398",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "SENSEX RBO",
+    "description": "<p>SENSEX RANGE BREAKOUT STRATEGY FOR BUYING OPTION. THE STRATEGY BUY AN OPTION ,WHEN THE RANGE OF OPTION PRICE IS BROKEN. SENSEX OPTIONS ARE VERY VOLATILE AND SOMETIME ILLIQUID , PLEASE BE CAREFUL BEFORE TRADING.</p><p><br></p><p>1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2308.4,
+      "AverageProfitPerTrade": 366.43,
+      "AverageProfitPerWinningTrade": 3989.3,
+      "Expectancy": 0.16,
+      "LosingRatio": 57.53,
+      "MaximumDrawdown": -47680.0,
+      "MaximumLosingStreak": 10,
+      "MaximumProfitInSingleTrade": 17210.0,
+      "MaximumWinningStreak": 6,
+      "MinimumProfitInSingleTrade": -8797.0,
+      "NumberOfTrades": 186,
+      "OverallProfit": 68156.0,
+      "ReturnOverMaximumDrawdown": 1.44,
+      "RewardToRiskRatio": 1.73,
+      "WinningRatio": 42.47
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:07.095",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "SENSEX TB SHORT",
+    "description": "<p>SENSEX TB OPTION SELLING STRATEGY FOR RANGE BOUND MARKET. SENSEX OPTION SELLING STRATEGY FOR TO GAIN TIME VALUE AND IV. </p><p>1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS. </p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING . </p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS. </p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED. </p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2595.18,
+      "AverageProfitPerTrade": 980.87,
+      "AverageProfitPerWinningTrade": 2779.87,
+      "Expectancy": 0.38,
+      "LosingRatio": 33.47,
+      "MaximumDrawdown": -19139.0,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 16213.0,
+      "MaximumWinningStreak": 9,
+      "MinimumProfitInSingleTrade": -12107.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 240314.0,
+      "ReturnOverMaximumDrawdown": 12.66,
+      "RewardToRiskRatio": 1.07,
+      "WinningRatio": 66.53
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.434",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Nifty Strangle",
+    "description": "\n\nThe strategy involves initiating a strangle position at 9:45  AM, targeting the current week's expiry on a daily basis of closest premium . This strategy is designed to perform well in sideways and calm market conditions, offering the advantage of zero overnight risk by exclusively trading intraday.\n\nRisk Assessment:\n\nWhile the strategy is categorized as high-risk due to its nature of selling options, it incorporates effective risk management techniques, including stop-loss orders. This significantly mitigates the potential for \"unlimited loss,\" making it a more structured approach to intraday trading.\n\nConclusion:\n\nThe strategy is suitable for traders seeking to capitalize on market volatility while managing risk effectively. With a defined entry and exit plan, alongside a robust risk management framework, it offers a disciplined approach to intraday trading in the Nifty index.",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1623.02,
+      "AverageProfitPerTrade": 436.67,
+      "AverageProfitPerWinningTrade": 1380.69,
+      "Expectancy": 0.27,
+      "LosingRatio": 31.43,
+      "MaximumDrawdown": -10301.25,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 6622.5,
+      "MaximumWinningStreak": 18,
+      "MinimumProfitInSingleTrade": -4106.25,
+      "NumberOfTrades": 245,
+      "OverallProfit": 106983.75,
+      "ReturnOverMaximumDrawdown": 10.47,
+      "RewardToRiskRatio": 0.85,
+      "WinningRatio": 68.57
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:05.260",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 350000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Nifty Selling [DTE 1,3]",
+    "description": "<p>It is Nifty Directional Strategy. Strategy to be deployed on DTE1(Wednesday)  AND DTE3(Monday).  Note: DTE :: Days to Expiry</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2206.17,
+      "AverageProfitPerTrade": 750.64,
+      "AverageProfitPerWinningTrade": 2655.7,
+      "Expectancy": 0.34,
+      "LosingRatio": 39.18,
+      "MaximumDrawdown": -25023.75,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 12045.0,
+      "MaximumWinningStreak": 12,
+      "MinimumProfitInSingleTrade": -10458.75,
+      "NumberOfTrades": 245,
+      "OverallProfit": 183907.5,
+      "ReturnOverMaximumDrawdown": 7.41,
+      "RewardToRiskRatio": 1.2,
+      "WinningRatio": 60.82
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:09.286",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 185000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex  Buying 2 [DTE 0,1,3]",
+    "description": "<p><br></p><p>1). Sensex Expiry Buying Strategy is a high-risk, high-reward trading approach designed for intraday trading Sensex.</p><p>2). Stop-Loss SL is used to mitigate the risk.</p><p>There is potential involvement of Operational risk and intraday premium decay risk involved in the strategy.</p><p>3). I have added 0.5% slippages.</p><p>4). This strategy need to be deployed on expiry day, before one day of expiry day and three days before expiry day only.</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -653.34,
+      "AverageProfitPerTrade": 1128.31,
+      "AverageProfitPerWinningTrade": 2194.87,
+      "Expectancy": 1.73,
+      "LosingRatio": 37.45,
+      "MaximumDrawdown": -6511.0,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 49910.0,
+      "MaximumWinningStreak": 9,
+      "MinimumProfitInSingleTrade": -3240.0,
+      "NumberOfTrades": 235,
+      "OverallProfit": 265152.0,
+      "ReturnOverMaximumDrawdown": 41.06,
+      "RewardToRiskRatio": 3.36,
+      "WinningRatio": 62.55
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:03.451",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Buyer Monday & Friday",
+    "description": " Buyer Monday & Friday  Strategy is an effective approach for traders looking to exploit short-term price movements in the market. By focusing on trend identification, confirmation signals for entry, and disciplined risk management techniques, traders can maximize their potential profits while minimizing risks associated with market volatility. This strategy emphasizes quick decision-making and active monitoring, making it suitable for both novice and experienced traders aiming to capitalize on market momentum.",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2560.12,
+      "AverageProfitPerTrade": 648.7,
+      "AverageProfitPerWinningTrade": 6525.09,
+      "Expectancy": 0.25,
+      "LosingRatio": 64.68,
+      "MaximumDrawdown": -45352.5,
+      "MaximumLosingStreak": 9,
+      "MaximumProfitInSingleTrade": 40597.5,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -7260.0,
+      "NumberOfTrades": 235,
+      "OverallProfit": 152445.0,
+      "ReturnOverMaximumDrawdown": 3.39,
+      "RewardToRiskRatio": 2.55,
+      "WinningRatio": 35.32
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.455",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Strangle",
+    "description": "\nThis strategy, known as the Strangle Intraday Strategy in nifty , involves deploying a Short at of the Closest Premium 9:35 AM  based on the current weekly contract of Nifty . This is a high-risk-high-reward strategy.\n\nA Short Straddle entails shorting both Calls and Puts of the same strike prices. It thrives in a sideways market, offering maximum profits and can still generate decent returns in a uni-directional market. However, this strategy can result in losses during volatile market conditions with significant and erratic swings.\nIt is essential to note that this strategy is strictly for intraday trading, eliminating overnight risks. The exit time is set at 3:10 PM, ensuring all positions are closed before the market closes. Additionally, a stop-loss mechanism is incorporated based on movements in Nifty .\nRisks:\nThe Nifty Straddle Intraday Strategy is considered high-risk due to its involvement in selling options, which inherently carries a higher level of risk. Nonetheless, this strategy is equipped with stop-losses, thus canceling out the \"unlimited loss\" factor. However, it is important to note that losses incurred through this strategy cannot be quantified to a specific figure.",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1215.79,
+      "AverageProfitPerTrade": 303.9,
+      "AverageProfitPerWinningTrade": 1111.24,
+      "Expectancy": 0.25,
+      "LosingRatio": 34.69,
+      "MaximumDrawdown": -8865.0,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 5355.0,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -2377.5,
+      "NumberOfTrades": 245,
+      "OverallProfit": 74456.25,
+      "ReturnOverMaximumDrawdown": 8.47,
+      "RewardToRiskRatio": 0.91,
+      "WinningRatio": 65.31
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:08.767",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 350000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex OTM Selling [DTE 0,3]",
+    "description": "<p>It is Sensex Option Selling Directional Strategy. Strategy to be deployed on DTE1(Wednesday) AND DTE3(Monday). Note: DTE :: Days to Expiry</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1155.91,
+      "AverageProfitPerTrade": 1074.61,
+      "AverageProfitPerWinningTrade": 2176.27,
+      "Expectancy": 0.93,
+      "LosingRatio": 33.06,
+      "MaximumDrawdown": -6209.0,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 55730.0,
+      "MaximumWinningStreak": 11,
+      "MinimumProfitInSingleTrade": -6209.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 263280.0,
+      "ReturnOverMaximumDrawdown": 42.75,
+      "RewardToRiskRatio": 1.88,
+      "WinningRatio": 66.94
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.469",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 150000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Sensex Sell & Buy Th & Fri",
+    "description": " Sensex Sell  and Buy  Strategy for Thursdays and Fridays capitalizes on the unique characteristics of options trading during expiry periods. By employing a combination of buying and selling strategies, traders can effectively navigate market volatility while managing risks. Understanding market dynamics and implementing robust risk management techniques are essential for success in this approach.\n\nDay : Thursday and Friday \nTime : 10:30AM -15:15PM",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1081.21,
+      "AverageProfitPerTrade": 380.46,
+      "AverageProfitPerWinningTrade": 1532.72,
+      "Expectancy": 0.35,
+      "LosingRatio": 44.08,
+      "MaximumDrawdown": -13269.0,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 34616.0,
+      "MaximumWinningStreak": 6,
+      "MinimumProfitInSingleTrade": -2920.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 93212.0,
+      "ReturnOverMaximumDrawdown": 7.08,
+      "RewardToRiskRatio": 1.42,
+      "WinningRatio": 55.92
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:08.045",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 300000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "NIFTY S S 003",
+    "description": "<p>NIFTY OPTION SELLING STRATEGY FOR RANGE BOUND MARKET AND TRENDING MARKET. NIFTY OPTION SELLING STRATEGY FOR SIDEWISE MOVE BIG MOVE.1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2893.96,
+      "AverageProfitPerTrade": 635.79,
+      "AverageProfitPerWinningTrade": 2949.2,
+      "Expectancy": 0.22,
+      "LosingRatio": 39.59,
+      "MaximumDrawdown": -16773.75,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 17538.75,
+      "MaximumWinningStreak": 6,
+      "MinimumProfitInSingleTrade": -12472.5,
+      "NumberOfTrades": 245,
+      "OverallProfit": 155767.5,
+      "ReturnOverMaximumDrawdown": 9.36,
+      "RewardToRiskRatio": 1.02,
+      "WinningRatio": 60.41
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:11.996",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "nifty buy above box 11 am",
+    "description": "<p>NIFTY OPTION BUYING STRATEGY FOR RANGE BREAKOUT AND TRENDING MARKET. NIFTY OPTION BUYING DIRECTION MOVEMENT.</p><p>MARGIN INCRUDE DRAWDAWN (25K + 15K)</p><p><br></p><p>1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -3047.72,
+      "AverageProfitPerTrade": 397.91,
+      "AverageProfitPerWinningTrade": 5469.56,
+      "Expectancy": 0.13,
+      "LosingRatio": 59.55,
+      "MaximumDrawdown": -59602.5,
+      "MaximumLosingStreak": 11,
+      "MaximumProfitInSingleTrade": 25192.5,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -11370.0,
+      "NumberOfTrades": 220,
+      "OverallProfit": 87540.0,
+      "ReturnOverMaximumDrawdown": 1.48,
+      "RewardToRiskRatio": 1.79,
+      "WinningRatio": 40.45
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.492",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 45000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex Buying  [DTE 0,1]",
+    "description": "<p>1). Sensex Expiry Buying Strategy is a high-risk, high-reward trading approach designed for intraday trading Sensex.</p><p>2). Stop-Loss SL is used to mitigate the risk.</p><p>There is potential involvement of Operational risk and intraday premium decay risk involved in the strategy.</p><p>3). I have tested this strategy for 4 lots. it will deploy 4 lots if you select the quantity as 1.</p><p>4). I have added 0.5% slippages.</p><p>5). This strategy need to be deployed on expiry day and before one day of expiry only.</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -640.81,
+      "AverageProfitPerTrade": 1165.27,
+      "AverageProfitPerWinningTrade": 2150.41,
+      "Expectancy": 1.82,
+      "LosingRatio": 35.29,
+      "MaximumDrawdown": -7551.0,
+      "MaximumLosingStreak": 3,
+      "MaximumProfitInSingleTrade": 51341.0,
+      "MaximumWinningStreak": 11,
+      "MinimumProfitInSingleTrade": -3986.0,
+      "NumberOfTrades": 238,
+      "OverallProfit": 277335.0,
+      "ReturnOverMaximumDrawdown": 37.03,
+      "RewardToRiskRatio": 3.36,
+      "WinningRatio": 64.71
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:08.140",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Sensex  Selling [DTE 0,1,2,3]",
+    "description": "<p>Investing and trading in the stock market involve inherent risks, and selling strategies, including short-selling or profit-booking, carry specific risks that you should carefully consider before making any trading decisions.</p><p><br></p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1878.84,
+      "AverageProfitPerTrade": 1101.4,
+      "AverageProfitPerWinningTrade": 2862.45,
+      "Expectancy": 0.59,
+      "LosingRatio": 37.14,
+      "MaximumDrawdown": -23426.0,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 66461.0,
+      "MaximumWinningStreak": 12,
+      "MinimumProfitInSingleTrade": -11701.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 269843.0,
+      "ReturnOverMaximumDrawdown": 11.61,
+      "RewardToRiskRatio": 1.52,
+      "WinningRatio": 62.86
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.557",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 150000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Nifty delta netural M T TH",
+    "description": "Nifty Delta Neutral strategy  is an investment approach that aims to balance the positive and negative delta of a portfolio to achieve a net delta of zero. This means that the portfolio is insulated from price movements in the underlying asset, allowing traders to focus on other factors such as volatility or time decay without being affected by directional changes in the market\n\nDays : Monday, Tuesday, Thursday\nTime :9:30AM - 15:15PM\n \n",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1414.11,
+      "AverageProfitPerTrade": 426.06,
+      "AverageProfitPerWinningTrade": 2629.85,
+      "Expectancy": 0.3,
+      "LosingRatio": 54.5,
+      "MaximumDrawdown": -17621.25,
+      "MaximumLosingStreak": 10,
+      "MaximumProfitInSingleTrade": 8688.75,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -2587.5,
+      "NumberOfTrades": 367,
+      "OverallProfit": 156363.75,
+      "ReturnOverMaximumDrawdown": 8.95,
+      "RewardToRiskRatio": 1.86,
+      "WinningRatio": 45.5
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:03.552",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 260000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex Buying [DTE 0,1,3]",
+    "description": "<p>1). Sensex Expiry Buying Strategy is a high-risk, high-reward trading approach designed for intraday trading Sensex.</p><p><br></p><p>2). Stop-Loss SL is used to mitigate the risk.</p><p><br></p><p>There is potential involvement of Operational risk and intraday premium decay risk involved in the strategy.</p><p><br></p><p>3). I have tested this strategy for 4 lots. it will deploy 4 lots if you select the quantity as 1.</p><p><br></p><p>4). I have added 0.5% slippages.</p><p><br></p><p>5). This strategy need to be deployed on expiry day , one day before expiry day and three days of expiry day only.</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -636.64,
+      "AverageProfitPerTrade": 1061.5,
+      "AverageProfitPerWinningTrade": 1932.92,
+      "Expectancy": 1.67,
+      "LosingRatio": 33.91,
+      "MaximumDrawdown": -5498.0,
+      "MaximumLosingStreak": 3,
+      "MaximumProfitInSingleTrade": 38128.0,
+      "MaximumWinningStreak": 10,
+      "MinimumProfitInSingleTrade": -2458.0,
+      "NumberOfTrades": 230,
+      "OverallProfit": 244146.0,
+      "ReturnOverMaximumDrawdown": 44.77,
+      "RewardToRiskRatio": 3.04,
+      "WinningRatio": 66.09
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:10.756",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "sensex buy above box 11 am",
+    "description": "<p>SENSEX OPTION BUYING STRATEGY FOR RANGE BREAKOUT AND TRENDING MARKET. SENSEX OPTION BUYING DIRECTION.</p><p>MARGIN INCRUDE DRAWDAWN (25K + 15K)</p><p>1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2293.57,
+      "AverageProfitPerTrade": 445.82,
+      "AverageProfitPerWinningTrade": 4667.71,
+      "Expectancy": 0.19,
+      "LosingRatio": 60.65,
+      "MaximumDrawdown": -43710.0,
+      "MaximumLosingStreak": 11,
+      "MaximumProfitInSingleTrade": 24227.0,
+      "MaximumWinningStreak": 7,
+      "MinimumProfitInSingleTrade": -9325.0,
+      "NumberOfTrades": 216,
+      "OverallProfit": 96297.0,
+      "ReturnOverMaximumDrawdown": 2.22,
+      "RewardToRiskRatio": 2.04,
+      "WinningRatio": 39.35
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:07.599",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 45000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Sensex Buying [DTE 0]",
+    "description": "<p>1). Sensex Expiry Buying Strategy is a high-risk, high-reward trading approach designed for intraday trading Sensex.</p><p>2). Stop-Loss SL is used to mitigate the risk.</p><p>There is potential involvement of Operational risk and intraday premium decay risk involved in the strategy.</p><p>3). I have tested this strategy for 1 lots</p><p>4). I have added 0.5% slippages.</p><p>5). This strategy need to be deployed on expiry day only.</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -405.09,
+      "AverageProfitPerTrade": 447.03,
+      "AverageProfitPerWinningTrade": 1225.41,
+      "Expectancy": 1.1,
+      "LosingRatio": 47.74,
+      "MaximumDrawdown": -3191.0,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 8957.0,
+      "MaximumWinningStreak": 7,
+      "MinimumProfitInSingleTrade": -1380.0,
+      "NumberOfTrades": 199,
+      "OverallProfit": 88959.0,
+      "ReturnOverMaximumDrawdown": 28.11,
+      "RewardToRiskRatio": 3.03,
+      "WinningRatio": 52.26
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.625",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Straddle 2.0",
+    "description": " Straddle 2.0 Intraday Strategy is a high-risk, high-reward trading approach designed for intraday trading in the Nifty index. This strategy involves deploying a straddle at 9:45 AM, utilizing the current weekly contract of \nNifty.\n\nStraddle 2.0 Components\n  Shorting Calls and Puts : Both call and put options at the same strike price are sold.\n  Buying ITM2 Options : Both in-the-money (ITM) call and put options are purchased, specifically two strikes away (ITM2).\n\nMarket Conditions\nThis strategy is most effective in a sideways market, offering maximum profit potential. It can still yield reasonable returns in a unidirectional market. However, caution is warranted during volatile market conditions, as significant and erratic price swings can lead to substantial losses.\n\nTrading Mechanics\n- Intraday Focus: The strategy is strictly for intraday trading, which eliminates overnight risk.\n- Exit Timing: All positions must be closed by 3:00 PM to ensure that no positions are held at market close.\n- Stop-Loss Mechanism**: A stop-loss is incorporated based on movements in the Nifty index to mitigate risk.\n\nRisks Involved\nThe Straddle 2.0  Intraday Strategy carries a high level of risk due to the selling of options. While stop-losses help manage potential losses and mitigate the \"unlimited loss\" aspect, it is crucial to understand that losses can be unpredictable and cannot be quantified to a specific figure.",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -4170.82,
+      "AverageProfitPerTrade": 243.64,
+      "AverageProfitPerWinningTrade": 7334.96,
+      "Expectancy": 0.06,
+      "LosingRatio": 61.63,
+      "MaximumDrawdown": -87930.0,
+      "MaximumLosingStreak": 10,
+      "MaximumProfitInSingleTrade": 32475.0,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -20460.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 59692.5,
+      "ReturnOverMaximumDrawdown": 0.68,
+      "RewardToRiskRatio": 1.76,
+      "WinningRatio": 38.37
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:03.152",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 200000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex Sell & Buy",
+    "description": " Sensex Buy and Sell Strategy for capitalizes on the unique characteristics of options trading during expiry periods. By employing a combination of buying and selling strategies, traders can effectively navigate market volatility while managing risks. Understanding market dynamics and implementing robust risk management techniques are essential for success in this approach.\n\nDay: Mon,Tue,Wed,Thus,Fri",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1234.03,
+      "AverageProfitPerTrade": 442.55,
+      "AverageProfitPerWinningTrade": 1638.43,
+      "Expectancy": 0.36,
+      "LosingRatio": 41.63,
+      "MaximumDrawdown": -15940.0,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 30636.0,
+      "MaximumWinningStreak": 9,
+      "MinimumProfitInSingleTrade": -2851.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 108424.0,
+      "ReturnOverMaximumDrawdown": 6.86,
+      "RewardToRiskRatio": 1.33,
+      "WinningRatio": 58.37
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:07.700",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 350000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Non directional With Hedges",
+    "description": "\nNon-directional strategies offer traders the opportunity to profit in various market conditions without needing to predict directional movements accurately. By utilizing hedges and combining different types of options, traders can effectively manage risk while capitalizing on time decay and volatility. Understanding these strategies' mechanics and implementing robust risk management techniques is essential for success in non-directional trading.\n\nDay : Mon,Tue,Wed,Thus.Fri\nTime : 1:00PM- 3:28PM\n",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1527.21,
+      "AverageProfitPerTrade": 366.09,
+      "AverageProfitPerWinningTrade": 1465.43,
+      "Expectancy": 0.24,
+      "LosingRatio": 36.73,
+      "MaximumDrawdown": -14947.5,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 24641.25,
+      "MaximumWinningStreak": 12,
+      "MinimumProfitInSingleTrade": -7076.25,
+      "NumberOfTrades": 245,
+      "OverallProfit": 89692.5,
+      "ReturnOverMaximumDrawdown": 6.05,
+      "RewardToRiskRatio": 0.96,
+      "WinningRatio": 63.27
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.639",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 350000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex ATM Selling [DTE 0,1,3]",
+    "description": "<p>It is Sensex option selling Directional Strategy. Strategy to be deployed on DTE0(Tuesday) AND DTE1(Wednesday) AND DTE3(Monday). Note: DTE :: Days to Expiry</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2012.71,
+      "AverageProfitPerTrade": 1172.47,
+      "AverageProfitPerWinningTrade": 2774.83,
+      "Expectancy": 0.58,
+      "LosingRatio": 33.47,
+      "MaximumDrawdown": -21756.0,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 66461.0,
+      "MaximumWinningStreak": 12,
+      "MinimumProfitInSingleTrade": -11515.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 287255.0,
+      "ReturnOverMaximumDrawdown": 13.31,
+      "RewardToRiskRatio": 1.38,
+      "WinningRatio": 66.53
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:05.209",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 185000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "SENSEX S S 0.001",
+    "description": "<p>SENSEX OPTION SELLING STRATEGY FOR RANGE BOUND MARKET AND TRENDING MARKET. SENSEX OPTION SELLING STRATEGY FOR EARN TIME AND DIRECTION.</p><p>1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2996.97,
+      "AverageProfitPerTrade": 826.69,
+      "AverageProfitPerWinningTrade": 3840.96,
+      "Expectancy": 0.28,
+      "LosingRatio": 44.08,
+      "MaximumDrawdown": -45654.0,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 17099.0,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -13971.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 202539.0,
+      "ReturnOverMaximumDrawdown": 4.47,
+      "RewardToRiskRatio": 1.28,
+      "WinningRatio": 55.92
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:12.429",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "sensex buy above box",
+    "description": "<p>SENSEX OPTION BUYING STRATEGY FOR RANGE BREAKOUT AND TRENDING MARKET. SENSEX OPTION BUYING DIRECTION.</p><p>MARGIN INCRUDE DRAWDAWN (25K + 15K)</p><p>1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2533.0,
+      "AverageProfitPerTrade": 467.28,
+      "AverageProfitPerWinningTrade": 5444.21,
+      "Expectancy": 0.18,
+      "LosingRatio": 62.39,
+      "MaximumDrawdown": -57438.0,
+      "MaximumLosingStreak": 11,
+      "MaximumProfitInSingleTrade": 24288.0,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -13432.0,
+      "NumberOfTrades": 226,
+      "OverallProfit": 105605.0,
+      "ReturnOverMaximumDrawdown": 1.85,
+      "RewardToRiskRatio": 2.15,
+      "WinningRatio": 37.61
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.658",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 45000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "NIFTY DIRECTIONAL SELLING",
+    "description": "<p>THIS STRATEGY SELL AN OPTION BASES ON TREND OF THE MARKET. DRAWDOWN OF THIS STRATEGY IS VERY LOW. THIS STRATEGY NOT RECOMMENDED ON EXPIRY DAY.1. INVESTMENT AND TRADING IN SECURITIES MARKET ARE SUBJECT TO MARKET RISKS.</p><p>2. ⁠BACK TEST YOUT STRATEGY CAREFULLY BEFORE INVESTING .</p><p>3. ⁠PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.</p><p>4. NO (SURE , RISKY FREE AND SAFE) GUARANTEE IS OFFERED.</p><p>5. ⁠NO ALLOCATION % IS SUGGESTED .</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -3015.21,
+      "AverageProfitPerTrade": 268.41,
+      "AverageProfitPerWinningTrade": 2731.12,
+      "Expectancy": 0.09,
+      "LosingRatio": 42.86,
+      "MaximumDrawdown": -47745.0,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 15397.5,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -11182.5,
+      "NumberOfTrades": 245,
+      "OverallProfit": 65760.0,
+      "ReturnOverMaximumDrawdown": 1.39,
+      "RewardToRiskRatio": 0.91,
+      "WinningRatio": 57.14
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:03.962",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Nifty Buying [DTE 1,4]",
+    "description": "<p>Nifty Momentum Buying Strategy is a high-risk, high-reward trading approach designed for intraday trading in Nifty.</p><p>Stop-Loss SL is used to mitigate the risk.</p><p>There is potential involvement of Operational risk and intraday premium decay risk involved in the strategy.</p><p>This strategy need to be deployed on mentioned trading days only. that means this strategy need to be deployed on Wednesday and Friday only.</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1354.4,
+      "AverageProfitPerTrade": 311.62,
+      "AverageProfitPerWinningTrade": 1963.99,
+      "Expectancy": 0.23,
+      "LosingRatio": 49.79,
+      "MaximumDrawdown": -19143.75,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 11193.75,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -5572.5,
+      "NumberOfTrades": 243,
+      "OverallProfit": 75723.75,
+      "ReturnOverMaximumDrawdown": 3.99,
+      "RewardToRiskRatio": 1.45,
+      "WinningRatio": 50.21
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:07.671",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Nifty - Decay Edge 1",
+    "description": "<p><strong>Decay Edge – Nifty Selling Strategy</strong></p><p><strong>Overview:</strong></p><ul><li>This strategy involves trading in Nifty Options using a short strangle approach.</li><li>It is a high-risk strategy due to option selling, but stop-losses are in place to mitigate the risk of unlimited losses.</li><li>Strictly an intraday strategy, eliminating overnight risks.</li><li>All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>Past performance is not indicative of future results.</li><li>No guarantee of being risk-free, safe, or profitable.</li><li>No specific allocation percentage is suggested.</li><li><strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2678.49,
+      "AverageProfitPerTrade": 541.47,
+      "AverageProfitPerWinningTrade": 3533.24,
+      "Expectancy": 0.2,
+      "LosingRatio": 48.16,
+      "MaximumDrawdown": -32523.75,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 19395.0,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -7203.75,
+      "NumberOfTrades": 245,
+      "OverallProfit": 132660.0,
+      "ReturnOverMaximumDrawdown": 4.11,
+      "RewardToRiskRatio": 1.32,
+      "WinningRatio": 51.84
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.729",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Nifty - Breakout Edge 2",
+    "description": "<p>Breakout Edge – Nifty buying Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Nifty Options.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a option buying strategy. It has predefined stop loss and target set. </li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul><p><br></p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1871.97,
+      "AverageProfitPerTrade": 748.62,
+      "AverageProfitPerWinningTrade": 3995.87,
+      "Expectancy": 0.4,
+      "LosingRatio": 55.34,
+      "MaximumDrawdown": -22792.5,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 14895.0,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -5655.0,
+      "NumberOfTrades": 103,
+      "OverallProfit": 77107.5,
+      "ReturnOverMaximumDrawdown": 3.41,
+      "RewardToRiskRatio": 2.13,
+      "WinningRatio": 44.66
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:03.936",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 45000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "AlphaQuant - 920 Straddle",
+    "description": "<p>This algo is 920 straddle on sensex. It executes algo at 920 am and runs till 315 pm</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1665.94,
+      "AverageProfitPerTrade": 480.94,
+      "AverageProfitPerWinningTrade": 2791.57,
+      "Expectancy": 0.29,
+      "LosingRatio": 51.84,
+      "MaximumDrawdown": -13537.0,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 16213.0,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -3287.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 117831.0,
+      "ReturnOverMaximumDrawdown": 8.78,
+      "RewardToRiskRatio": 1.68,
+      "WinningRatio": 48.16
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:06.320",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 215000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Nifty - Breakout Edge 1",
+    "description": "<p>Breakout Edge – Nifty buying Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Nifty Options.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a option buying strategy. It has predefined stop loss and target set.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2150.07,
+      "AverageProfitPerTrade": 333.69,
+      "AverageProfitPerWinningTrade": 3427.5,
+      "Expectancy": 0.16,
+      "LosingRatio": 55.47,
+      "MaximumDrawdown": -23190.0,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 8407.5,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -4631.25,
+      "NumberOfTrades": 128,
+      "OverallProfit": 42712.5,
+      "ReturnOverMaximumDrawdown": 1.86,
+      "RewardToRiskRatio": 1.59,
+      "WinningRatio": 44.53
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.744",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 50000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "AlphaQuant - Sensex Undertaker",
+    "description": "<p>Sensex Undertaker</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1831.26,
+      "AverageProfitPerTrade": 711.72,
+      "AverageProfitPerWinningTrade": 2111.97,
+      "Expectancy": 0.39,
+      "LosingRatio": 35.51,
+      "MaximumDrawdown": -15204.0,
+      "MaximumLosingStreak": 8,
+      "MaximumProfitInSingleTrade": 8647.0,
+      "MaximumWinningStreak": 11,
+      "MinimumProfitInSingleTrade": -7148.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 174371.0,
+      "ReturnOverMaximumDrawdown": 11.56,
+      "RewardToRiskRatio": 1.15,
+      "WinningRatio": 64.49
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:11.576",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 215000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Nifty - Breakout Edge 3",
+    "description": "<p>Breakout Edge – Nifty buying Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Nifty Options.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a option buying strategy. It has predefined stop loss and target set.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2142.83,
+      "AverageProfitPerTrade": 612.28,
+      "AverageProfitPerWinningTrade": 4442.56,
+      "Expectancy": 0.29,
+      "LosingRatio": 58.16,
+      "MaximumDrawdown": -19458.75,
+      "MaximumLosingStreak": 5,
+      "MaximumProfitInSingleTrade": 15956.25,
+      "MaximumWinningStreak": 7,
+      "MinimumProfitInSingleTrade": -5171.25,
+      "NumberOfTrades": 98,
+      "OverallProfit": 60003.75,
+      "ReturnOverMaximumDrawdown": 3.11,
+      "RewardToRiskRatio": 2.07,
+      "WinningRatio": 41.84
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:02.862",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 45000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex - Decay Edge 1",
+    "description": "<p>Decay Edge – Sensex Selling Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Sensex Options using a short strangle approach.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a high-risk strategy due to option selling, but stop-losses are in place to mitigate the risk of unlimited losses.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li><strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2065.52,
+      "AverageProfitPerTrade": 686.93,
+      "AverageProfitPerWinningTrade": 2585.18,
+      "Expectancy": 0.33,
+      "LosingRatio": 40.82,
+      "MaximumDrawdown": -32030.0,
+      "MaximumLosingStreak": 10,
+      "MaximumProfitInSingleTrade": 15785.0,
+      "MaximumWinningStreak": 12,
+      "MinimumProfitInSingleTrade": -6086.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 168299.0,
+      "ReturnOverMaximumDrawdown": 5.3,
+      "RewardToRiskRatio": 1.25,
+      "WinningRatio": 59.18
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:05.312",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 275000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Nifty Selling [DTE 0,2,4]",
+    "description": "<p>It is Nifty Directional Strategy. Strategy to be deployed on DTE0(Thursday), DTE2(Tuesday) AND DTE4(Friday). Note: DTE :: Days to Expiry.</p><p><br></p><p>Disclaimer: Investing and trading in the stock market involve inherent risks, and selling strategies, including short-selling or profit-booking, carry specific risks that you should carefully consider before making any trading decisions.</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2761.7,
+      "AverageProfitPerTrade": 740.95,
+      "AverageProfitPerWinningTrade": 2959.3,
+      "Expectancy": 0.27,
+      "LosingRatio": 38.78,
+      "MaximumDrawdown": -19162.5,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 18971.25,
+      "MaximumWinningStreak": 11,
+      "MinimumProfitInSingleTrade": -13241.25,
+      "NumberOfTrades": 245,
+      "OverallProfit": 181533.75,
+      "ReturnOverMaximumDrawdown": 9.55,
+      "RewardToRiskRatio": 1.07,
+      "WinningRatio": 61.22
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.761",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 185000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "AlphaQuant - Nifty Undertaker",
+    "description": "<p>Nifty undertaker</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1595.43,
+      "AverageProfitPerTrade": 552.51,
+      "AverageProfitPerWinningTrade": 1889.63,
+      "Expectancy": 0.35,
+      "LosingRatio": 38.37,
+      "MaximumDrawdown": -12723.75,
+      "MaximumLosingStreak": 4,
+      "MaximumProfitInSingleTrade": 10001.25,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -6123.75,
+      "NumberOfTrades": 245,
+      "OverallProfit": 135363.75,
+      "ReturnOverMaximumDrawdown": 10.73,
+      "RewardToRiskRatio": 1.18,
+      "WinningRatio": 61.63
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:03.422",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 230000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "AlphaQuant - Sensex Buying",
+    "description": "<p>Buying Algo on Sensex</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -3483.02,
+      "AverageProfitPerTrade": 896.09,
+      "AverageProfitPerWinningTrade": 6225.37,
+      "Expectancy": 0.26,
+      "LosingRatio": 54.89,
+      "MaximumDrawdown": -51212.0,
+      "MaximumLosingStreak": 8,
+      "MaximumProfitInSingleTrade": 29964.0,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -20298.0,
+      "NumberOfTrades": 235,
+      "OverallProfit": 210580.0,
+      "ReturnOverMaximumDrawdown": 4.15,
+      "RewardToRiskRatio": 1.79,
+      "WinningRatio": 45.11
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.818",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 60000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "Nifty - Decay Edge 3",
+    "description": "<p>Decay Edge – Nifty Selling Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Nifty Options using a short strangle approach.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a high-risk strategy due to option selling, but stop-losses are in place to mitigate the risk of unlimited losses.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li><strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -2449.14,
+      "AverageProfitPerTrade": 494.66,
+      "AverageProfitPerWinningTrade": 3990.44,
+      "Expectancy": 0.2,
+      "LosingRatio": 54.29,
+      "MaximumDrawdown": -24667.5,
+      "MaximumLosingStreak": 6,
+      "MaximumProfitInSingleTrade": 22912.5,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -6738.75,
+      "NumberOfTrades": 245,
+      "OverallProfit": 121192.5,
+      "ReturnOverMaximumDrawdown": 4.95,
+      "RewardToRiskRatio": 1.63,
+      "WinningRatio": 45.71
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:08.926",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Nifty - Decay Edge 2",
+    "description": "<p>Decay Edge – Nifty Selling Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Nifty Options using a short strangle approach.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a high-risk strategy due to option selling, but stop-losses are in place to mitigate the risk of unlimited losses.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1615.43,
+      "AverageProfitPerTrade": 476.11,
+      "AverageProfitPerWinningTrade": 3359.6,
+      "Expectancy": 0.29,
+      "LosingRatio": 57.96,
+      "MaximumDrawdown": -29066.25,
+      "MaximumLosingStreak": 9,
+      "MaximumProfitInSingleTrade": 19383.75,
+      "MaximumWinningStreak": 5,
+      "MinimumProfitInSingleTrade": -4833.75,
+      "NumberOfTrades": 245,
+      "OverallProfit": 116647.5,
+      "ReturnOverMaximumDrawdown": 4.05,
+      "RewardToRiskRatio": 2.08,
+      "WinningRatio": 42.04
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:00.782",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "Sensex - Breakout Edge 1",
+    "description": "<p>Breakout Edge – Sensex buying Strategy</p><p><br></p><p>Overview:</p><p><br></p><ul><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This strategy involves trading in Sensex Options.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a option buying strategy. It has predefined stop loss and target set.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strictly an intraday strategy, eliminating overnight risks.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All positions are exited by 3:20 PM to ensure closure before the market close.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backtest your strategy carefully before live trading. Consider brokerage, taxes, and slippage in your backtested results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Past performance is not indicative of future results.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No guarantee of being risk-free, safe, or profitable.</li><li>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No specific allocation percentage is suggested.</li><li><strong>Investing in the securities market involves inherent risks. Please read all related documents carefully before investing. SEBI registration and NISM certification do not guarantee the performance of any intermediary or assure returns.&nbsp;</strong></li></ul>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -1835.68,
+      "AverageProfitPerTrade": 536.2,
+      "AverageProfitPerWinningTrade": 3956.12,
+      "Expectancy": 0.29,
+      "LosingRatio": 59.05,
+      "MaximumDrawdown": -19171.0,
+      "MaximumLosingStreak": 7,
+      "MaximumProfitInSingleTrade": 17884.0,
+      "MaximumWinningStreak": 4,
+      "MinimumProfitInSingleTrade": -5178.0,
+      "NumberOfTrades": 105,
+      "OverallProfit": 56301.0,
+      "ReturnOverMaximumDrawdown": 2.96,
+      "RewardToRiskRatio": 2.16,
+      "WinningRatio": 40.95
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:09.034",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "buy",
+    "margin": 25000.0,
+    "underlying": "SENSEX"
+  },
+  {
+    "name": "AlphaQuant - Nifty - HHH",
+    "description": "<p>Nifty Selling</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -7497.12,
+      "AverageProfitPerTrade": 2053.87,
+      "AverageProfitPerWinningTrade": 11222.82,
+      "Expectancy": 0.27,
+      "LosingRatio": 48.98,
+      "MaximumDrawdown": -70867.5,
+      "MaximumLosingStreak": 9,
+      "MaximumProfitInSingleTrade": 75183.75,
+      "MaximumWinningStreak": 9,
+      "MinimumProfitInSingleTrade": -22897.5,
+      "NumberOfTrades": 245,
+      "OverallProfit": 503197.5,
+      "ReturnOverMaximumDrawdown": 7.16,
+      "RewardToRiskRatio": 1.5,
+      "WinningRatio": 51.02
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:04.756",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 300000.0,
+    "underlying": "NIFTY"
+  },
+  {
+    "name": "AlphaQuant - Sensex - HHH",
+    "description": "<p>Sensex option selling</p>",
+    "statistics": {
+      "AverageProfitPerLosingTrade": -6305.12,
+      "AverageProfitPerTrade": 1436.9,
+      "AverageProfitPerWinningTrade": 7243.42,
+      "Expectancy": 0.23,
+      "LosingRatio": 42.86,
+      "MaximumDrawdown": -49820.0,
+      "MaximumLosingStreak": 7,
+      "MaximumProfitInSingleTrade": 63516.0,
+      "MaximumWinningStreak": 8,
+      "MinimumProfitInSingleTrade": -18422.0,
+      "NumberOfTrades": 245,
+      "OverallProfit": 352041.0,
+      "ReturnOverMaximumDrawdown": 7.12,
+      "RewardToRiskRatio": 1.15,
+      "WinningRatio": 57.14
+    },
+    "statistics_meta": {
+      "compute_ts": "2025-03-02T20:30:09.551",
+      "end_date": "2025-03-02",
+      "start_date": "2024-03-02"
+    },
+    "positional": "intraday",
+    "side": "sell",
+    "margin": 250000.0,
+    "underlying": "SENSEX"
+  }
+]
