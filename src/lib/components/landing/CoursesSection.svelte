@@ -8,7 +8,7 @@
 
 	export const courses = [
 		{
-			href: "/workshops/linkedin-growth",
+			href: "#",
 			img: "https://d31bwppm8yl9g2.cloudfront.net/learner/website/gslink.webp",
 			title: "LinkedIn Growth With AI",
 			duration: "5 Days",
@@ -27,7 +27,7 @@
 			}
 		},
 		{
-			href: "/workshops/chatgpt-workshop",
+			href: "#",
 			img: "https://d31bwppm8yl9g2.cloudfront.net/learner/website/gschat.webp",
 			title: "Generative AI Workshop",
 			duration: "3 Hours",
@@ -46,7 +46,7 @@
 			}
 		},
 		{
-			href: "/workshops/business-mastermind",
+			href: "#",
 			img: "https://d31bwppm8yl9g2.cloudfront.net/learner/website/gsbusin.webp",
 			title: "Generative AI Business Mastermind",
 			duration: "2 Days",
@@ -69,7 +69,7 @@
 			}
 		},
 		{
-			href: "/workshops/product-management",
+			href: "#",
 			img: "https://d31bwppm8yl9g2.cloudfront.net/learner/website/gsprod.webp",
 			title: "Product Management With AI",
 			duration: "3 Hours",
@@ -88,7 +88,7 @@
 			}
 		},
 		{
-			href: "/workshops/marketing-mastermind",
+			href: "#",
 			img: "https://d31bwppm8yl9g2.cloudfront.net/learner/website/gsmarke.webp",
 			title: "Generative AI Marketing Mastermind",
 			duration: "2 Days",
@@ -111,7 +111,7 @@
 			}
 		},
 		{
-			href: "/workshops/ai-for-consultants",
+			href: "#",
 			img: "https://d31bwppm8yl9g2.cloudfront.net/learner/website/gscon.webp",
 			title: "AI For Consultants",
 			duration: "3 Hours",
