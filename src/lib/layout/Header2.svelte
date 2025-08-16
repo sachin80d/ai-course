@@ -213,7 +213,7 @@
           class={`flex items-center gap-1 rounded-full px-3 py-1.5 text-sm transition-colors ${
             selected === item.id
               ? " selected-tab-button"
-              : " text-white"
+              : " text-black dark:text-white"
           }`}
         >
           <span class="font-normal">
@@ -308,7 +308,7 @@
 	
 	<!-- {#if innerWidth < 768} -->
 		<div class="container header-body">
-			<a class="text-md flex items-center z-60" href="/"><WaypointsIcon class="h-5" />&nbsp;&nbsp;<img src="/solveai-logo.png" alt="NextQuant.AI" class="h-6" style="filter: invert(1)" /> </a>
+			<a class="text-md flex items-center z-60" href="/"><WaypointsIcon class="h-5" />&nbsp;&nbsp;<img src="/solveai-logo.png" alt="NextQuant.AI" class="h-6" style="filter: invert(0)" /> </a>
 
 			<div class="flex h-full items-center" id="show-demo-wrapper">
 				<!-- <a class="mr-6 text-sm" href="/signin"> Log in </a> -->

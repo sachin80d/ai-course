@@ -10,6 +10,8 @@
 	import LoginForm from "$lib/components/LoginForm.svelte";
 	import Bot from "$lib/components/bot.svelte";
   import CoursesMarquee from "./CoursesMarquee.svelte";
+  import AdvantagesMarquee from "./AdvantagesMarquee.svelte";
+  import AuroraBackground from "$lib/components/magic/AuroraBackground.svelte";
 
 	function triggerButtonClick() {
 		const targetButton = document.getElementById("target-button");
@@ -124,9 +126,9 @@
   </script>	
   
   <section
-	class="hero-section horizontal-card relative flex flex-col w-[100vw] gap-8 m-0 pb-10 min-h-[80vh] max-h-[80vh] justify-center items-center"
+	class="hero-section horizontal-card relative flex flex-col w-[100vw] max-w-[1200px] gap-8 m-0 pb-10 min-h-[100vh] max-h-[100vh] justify-center items-center mx-auto px-0"
   >
-
+  <div class="flex flex-row items-center">
   <!-- <div class="pointer-events-none fixed inset-0 flex items-center justify-center absolute">
     <div
       class="
@@ -146,8 +148,8 @@
       <LoginForm  />
     </div> -->
 
-    <div
-        class="absolute top-10 h-[40%] flex w-full max-w-[1000px] m-auto flex flex-col items-center justify-center overflow-hidden md:shadow-xl"
+    <!-- <div
+        class="absolute top-10 right-0 w-[49%] flex h-full m-auto flex flex-col items-center justify-center overflow-hidden md:shadow-xl"
     >
       <CoursesMarquee/>
       <div
@@ -156,15 +158,25 @@
       <div
           class="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"
       ></div>
-    </div>
+    </div> -->
 
-    <div class="flex justify-center items-center w-full absolute bottom-0 h-[50%]">
-      <WavyBackground containerClassName="absolute top-0 bottom-0 left-0 right-0 w-full h-full" className="relative" speed="slow" waveWidth={10} waveOpacity={0}>
+    <div class="flex justify-center items-center h-full w-[49%]">
+      <!-- <WavyBackground containerClassName="absolute top-0 bottom-0 left-0 right-0 w-full h-full" className="relative" speed="slow" waveWidth={10} waveOpacity={0}> -->
         <LandingTitle />
 
-      </WavyBackground>
+      <!-- </WavyBackground> -->
     </div>
 
+    <div class="flex justify-center w-[49%] h-full">
+      <video
+        class="rounded-xl shadow-[inset_0_0_50px_rgba(0,0,0,1)] border-4"
+        autoplay muted loop playsinline
+        poster="/deepcraft_vid_placeholder.jpg"
+      >
+        <source src="/deepcraft_vid_3.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
     <!-- <div class="flex justify-center absolute right-0 left-0 w-full h-full top-80">
       <video
@@ -180,8 +192,17 @@
       </video>
       <Bot />
     </div> -->
- 
-
+  </div>
+  <div class="flex flex-row flex-start w-full gap-4 items-center">
+    <div>In Association With:</div>
+    <div class="flex flex-row gap-6">
+      <img src="ai_company_logos/perplexity.png" alt="Perplexity" class="h-5" style="filter: opacity(0.8);" />
+      <img src="ai_company_logos/gemini.png" alt="Gemini" class="h-4" style="filter: opacity(0.7);" />
+      <img src="ai_company_logos/claude.png" alt="Claude" class="h-4" style="filter: opacity(0.7);" />
+      <img src="ai_company_logos/openai.png" alt="OpenAi" class="h-4" style="filter: opacity(0.7);" />
+    </div>
+  </div>
+  <AdvantagesMarquee/>
 
 </section>
 

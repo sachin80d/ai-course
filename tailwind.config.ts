@@ -1,6 +1,10 @@
 import { fontFamily } from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
 import flattenColorPalette from 'tailwindcss/lib/util/flattenColorPalette';
+import plugin from 'tailwindcss/plugin'
+import tailwindcssAnimate from 'tailwindcss-animate';
+
+
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }: any) {
@@ -17,8 +21,8 @@ function addVariablesForColors({ addBase, theme }: any) {
 const config: Config = {
 	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	// safelist: ['dark'],
-	safelist: ['light'],
+	safelist: ['dark'],
+	// safelist: ['light'],
 	theme: {
 		container: {
 			center: true,
@@ -77,6 +81,7 @@ const config: Config = {
 				sans: ['DM Sans', 'Archivo', 'Inter var', ...fontFamily.sans]
 			},
 			animation: {
+				aurora: "aurora 60s linear infinite",
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
@@ -180,6 +185,14 @@ const config: Config = {
 				gradient: {
 					to: { "background-position": "200% center"},
 				},
+				aurora: {
+					from: {
+					  backgroundPosition: "50% 50%, 50% 50%",
+					},
+					to: {
+					  backgroundPosition: "350% 50%, 350% 50%",
+					},
+				},
 				"aurora-border": {
 				"0%, 100%": { borderRadius: "37% 29% 27% 27% / 28% 25% 41% 37%" },
 				"25%": { borderRadius: "47% 29% 39% 49% / 61% 19% 66% 26%" },
@@ -220,8 +233,11 @@ const config: Config = {
 		}
 	},
 	plugins:[
+		plugin(function({ addVariant }) {
+			addVariant('light', '.light &')
+		}),
 		addVariablesForColors,
-		require('tailwindcss-animate')
+		tailwindcssAnimate
 	]
 };
 

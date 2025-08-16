@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="dark" data-theme="dark">
+<html lang="en" class="light" data-theme="light">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
@@ -31,14 +31,14 @@
 		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover" class="bg-background" the>
+	<body data-sveltekit-preload-data="hover" class="light:bg-white dark:bg-black" the>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 	<script>
 		// Apply dark theme on load
 		if (typeof window !== 'undefined') {
-			// document.documentElement.classList.remove('dark');
-			// document.documentElement.classList.add('light');
+			document.documentElement.classList.remove('dark');
+			document.documentElement.classList.add('light');
 		}
 	  </script>
 </html>

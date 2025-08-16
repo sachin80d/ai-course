@@ -36,7 +36,7 @@
 	<meta name="twitter:site" content="@Sachin_Dalal" />
 </svelte:head>
 <HeroSection />
-<VideoScrollSection src="/blue_purple_bg_1.jpg" />
+<!-- <VideoScrollSection src="/blue_purple_bg_1.jpg" /> -->
 <CompaniesMarquee />
 <CoursesSection />
 <SessionCarousel />

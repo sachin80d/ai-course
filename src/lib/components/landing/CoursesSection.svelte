@@ -134,20 +134,20 @@
 
 <section class="horizontal-card relative flex flex-row w-[100vw] gap-8 mt-40 pb-10">
     <div class="text-center text-2xl font-medium w-[40%] pl-20">
-        <h2 class="text-left font-extralight md:text-left
+        <h2 class="text-left font-normal md:text-left
             xl:text-[50px]      /* font-size: 89px at ≥1280px */
             sm:leading-none     /* line-height: 1 at ≥640px */
             sm:text-5xl         /* font-size: 4.5rem, line-height: 1.25 at ≥640px */
             tracking-[-0.89px]  /* letter-spacing: -0.89px */
         ">
-            Courses that get you a <AuroraText>JOB</AuroraText>
+            Courses that get you a <span class="highlight-color">JOB</span>
         </h2>
         <div class="overflow-hidden">
             <div class="text-left mb-12 w-full md:text-left">
                 <h2 class="text-[24px] font-light">
                     <span>1 </span>Lakh+ Learners
                 </h2>
-                <p class="text-base font-light text-gray-300">have reaped benefits from our programs</p>
+                <p class="text-base font-light text-gray-500">have reaped benefits from our programs</p>
             </div>
             <div class="overflow-hidden relative">
                 <Marquee class="[--duration:100s] [--gap:1rem]">

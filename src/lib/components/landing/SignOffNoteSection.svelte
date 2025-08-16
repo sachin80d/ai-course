@@ -32,8 +32,8 @@
         <BlurFade delay={0.25 * 2} class="mt-5">
           <div class="flex flex-row items-center justify-center gap-8">
             <div class="flex justify-center gap-5 mt-3 mb-3">
-              <Button variant="secondary" class="text-[1] rounded-[50px] bg-white hover:bg-[#c3ff9e] text-black px-5 py-2">Subscribe</Button>
-              <Button variant="secondary" class="group flex text-[1] bg-transparent text-white px-5 py-2 no-hover">
+              <Button variant="secondary" class="text-[1] rounded-[50px] hover:bg-[#c3ff9e] bg-black text-white px-5 py-2">Subscribe</Button>
+              <Button variant="secondary" class="group flex text-[1] bg-transparent border-1 border-black px-5 py-2 no-hover">
                 Courses           
                 <ChevronRightIcon
                 class="ml-1 mt-0.5 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"

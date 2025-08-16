@@ -131,7 +131,7 @@
 
 	<!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-5"> -->
 
-    <Marquee pauseOnHover class="[--duration:40s] [--gap:8rem]">
+    <Marquee pauseOnHover class="[--duration:100s] [--gap:8rem]" vertical>
 		{#each courses as course}
 			<a class="block no-underline h-full courses-card-link relative" href={course.href}>
 				<div class="bg-white rounded-lg overflow-hidden border flex flex-col h-full max-h-[290px] max-w-[150px]">
