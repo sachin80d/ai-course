@@ -68,7 +68,7 @@
   sm:text-5xl         /* font-size: 4.5rem, line-height: 1.25 at ≥640px */
   tracking-[-0.89px]  /* letter-spacing: -0.89px */
 ">
-      <span class="font-black highlight-color ">Master AI</span>. Transform Business. Advance your <span class="highlight-color font-black">Career</span>.
+      <span class="font-black font-black ">Master AI</span>. Transform Business. <span class="highlight-color font-black">Advance your Career</span>.
 
       <!-- <span class="text-gradient-2023">AI / ML&nbsp;&nbsp;Course</span><img src="/copyright.png" class="inline relative top-[-25px]" width="20px" alt="copyright">that&nbsp;&nbsp;matters!<br>
       Get Hired. Get Skilled. -->
