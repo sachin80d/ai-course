@@ -3,10 +3,11 @@
   
   </script>
   
-  <section class="mt-0">
-    <p class="max-w-max mb-10 md:mb-12 text-center mx-auto uppercase leading-[1.70] text-xs px-3 sm:px-0 md:text-sm tracking-[4px]">COMPANIES WE PARTNER&nbsp;WITH:</p>
+  <section class="horizontal-card flex flex-col gap-4 items-center justify-center mt-30">
+		<div class="start-heading text-center">Companies we partner with</div>
+
   <div
-    class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background py-20 md:shadow-xl"
+    class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg border-bottom bg-background py-10 md:shadow-xl"
   >
     <Marquee pauseOnHover class="[--duration:40s]">
       {#each Array(9).fill(0).map((_, i) => i + 1) as num}

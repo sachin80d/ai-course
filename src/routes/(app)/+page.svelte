@@ -15,6 +15,7 @@
 	import SessionCarousel from '$lib/components/landing/SessionCarousel.svelte';
 	import SignOffNoteSection from '$lib/components/landing/SignOffNoteSection.svelte';
 	import FooterSection from '$lib/components/landing/FooterSection.svelte';
+	import { onMount } from 'svelte';
 
 </script>
 
@@ -50,3 +51,16 @@
 <!-- <SphereMask />
 <PricingSection /> -->
 <!-- <CtaSection /> -->
+<div>
+	<script>
+	   // Apply dark theme on load
+	   if (typeof window !== 'undefined') {
+		   document.documentElement.classList.remove('light');
+		   document.documentElement.classList.add('dark');
+	   }
+	   onMount(() => {
+		 document.documentElement.classList.remove('light');
+		 document.documentElement.classList.add('dark');
+	   });
+	</script>
+   </div>

@@ -28,7 +28,7 @@
 <Marquee class="[--duration:30s] [--gap:4rem] overflow-hidden w-full">
     {#each advantages as advantage}
         <div class="flex flex-row items-top justify-start gap-4 border-2 rounded-lg h-[70px] w-[300px] p-2">
-            <div class="flex flex-col pt-1">
+            <div class="flex flex-col pt-1 relative">
                 <span class="text-base text-gray-600"><svelte:component this={advantage.icon} /></span>
             </div>
             <div class="flex flex-col">

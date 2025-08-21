@@ -1,4 +1,4 @@
-<section class="horizontal-card relative flex flex-col w-[100vw] mt-20 pb-10 mb-0 pb-0">
+<section class="horizontal-card relative flex flex-col w-[100vw] !mb-0">
     <div class="container pt-12 md:pt-20 md:pb-0">
         <nav>
             <ul class="grid grid-cols-2 gap-y-2 gap-x-10 md:gap-10 xl:gap-0 md:grid-cols-3 xl:justify-between xl:flex xl:flex-wrap">

@@ -95,9 +95,14 @@ const config: Config = {
 				rainbow: "rainbow var(--speed, 2s) infinite linear",
 				"spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
 				"magicslide": "magicslide var(--speed) ease-in-out infinite alternate",
-				spotlight: 'spotlight 2s ease .75s 1 forwards'
+				spotlight: 'spotlight 2s ease .75s 1 forwards',
+				shine: "shine 2s linear infinite"
 			},
 			keyframes: {
+				shine: {
+					from: { backgroundPosition: "0 0" },
+					to: { backgroundPosition: "-200% 0" },
+				},
 				"spin-around": {
 					"0%": {
 						transform: "translateZ(0) rotate(0)",

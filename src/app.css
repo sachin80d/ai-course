@@ -69,6 +69,15 @@
      --light-teal: #7cffcd;
      --electric-blue: #0025ff;
      --grey-333: #333333;
+
+     --dark-color-1: #0025ff;
+     --dark-color-2: #ff4545;
+     --dark-color-3: #ff4fd9;
+     --dark-color-4: #47c265;
+     --dark-color-5: #c5d000;
+     --dark-color-6: #00dbdf;
+     --dark-color-7: #da7c00;
+     --dark-color-8: #8400ff;
    }
 
    .dark {
@@ -273,8 +282,10 @@ footer > div {
 section {
    width: 100vw!important;
    /* font-family: 'Archivo', sans-serif; */
-   margin-bottom: var(--navigation-height);
-   margin-top: var(--navigation-height);
+   padding-top: calc(var(--navigation-height))!important;
+   margin-bottom: calc(2*var(--navigation-height)) !important;
+   margin-top: 0!important;
+   overflow: hidden;
 }
 
 section h2 {
@@ -470,8 +481,7 @@ header .show-demo {
 
 #show-demo-wrapper button {
    border-radius: 20px;
-   background-color: var(--electric-blue);
-   color: white;
+   /* background-color: var(--electric-blue); */
 }
 
 #show-demo-wrapper::after {
@@ -574,4 +584,74 @@ header .show-demo {
        transform: scale(2.5);
        opacity: 0;
    }
+}
+
+.subtle-box-shadow {
+   box-shadow: -1px 1px 6px 0px #00000016;
+}
+
+section .start-heading, .courses-use-cases .bento-grid-item-start-title {
+   line-height: 1.60;            /* leading-[1.60] */
+   font-size: 12px;              /* base font size (~16px) */
+   font-weight: 400;             /* font-normal */
+   text-wrap: balance;           /* [text-wrap:balance] */
+   white-space: inherit;         /* [white-space:inherit] */
+   display: block;               /* block */
+   color: #757575;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+section .main-heading {
+   line-height: 1.375;                  /* leading-snug (~22px on base 16px) */
+   font-size: 70px;                 /* text-3xl → 30px */
+   letter-spacing: -0.89px;
+   font-weight: 400;
+   text-wrap: balance;                  /* [text-wrap:balance] */
+}
+
+section .subheading {
+   font-size: 20px;              /* base font size (~16px) */
+   text-wrap: balance;           /* [text-wrap:balance] */
+   white-space: inherit;         /* [white-space:inherit] */
+   display: block;               /* block */
+}
+
+/* Responsive breakpoints */
+@media (min-width: 640px) { /* sm: */
+
+   section .main-heading {
+      font-size: 60px;  /* text-4.5xl (~42px if you have custom scale) */
+    }
+
+ }
+ 
+ @media (min-width: 768px) { /* md: */
+
+
+   section .main-heading {
+      font-size: 60px;  /* text-4.5xl (~42px if you have custom scale) */
+    }
+
+ }
+
+ @media (min-width: 1024px) { /* lg: */
+   section .start-heading {
+     margin-top: 0.5rem;             /* lg:mt-2 */
+     font-size: 12px;             /* lg:text-xl → 20px */
+   }
+ }
+
+
+.courses-use-cases .bento-grid-item-title {
+   margin-top: 30px;
+   font-size: 26px;
+   font-weight: normal!important;
+   color: unset;
+   line-height: normal;
+}
+.courses-use-cases .bento-grid-item-description {
+   font-size: 16px;
+   font-weight: 400;
+   color: unset;
 }

@@ -1,12 +1,6 @@
 <script>
 	import Footer from '$lib/layout/Footer.svelte';
 	import Header from '$lib/layout/Header2.svelte';
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-	  document.documentElement.classList.remove('dark');
-	  document.documentElement.classList.add('light');
-	});
 </script>
 
 

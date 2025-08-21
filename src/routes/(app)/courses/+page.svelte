@@ -1,8 +1,20 @@
 <script>
-    import { seo } from '$lib';
-    import CourseSurvey from '$lib/components/courses/CourseSurvey.svelte';
-</script>
+	import { seo } from '$lib';
+	import CoursesHeroSection from '$lib/components/courses/CoursesHeroSection.svelte';
+	import CompaniesMarquee from '$lib/components/landing/CompaniesMarquee.svelte';
+	import FooterSection from '$lib/components/landing/FooterSection.svelte';
+	import { onMount } from 'svelte';
+	import UseCases from '$lib/components/courses/UseCases.svelte';
+    import SoftwaresUsed from '$lib/components/courses/SoftwaresUsed.svelte';
+	import FAQs from '$lib/components/courses/FAQs.svelte';
+	import CTA from '$lib/components/courses/CTA.svelte';
+	import ToolsReferences from '$lib/components/courses/ToolsReferences.svelte';
+	import SmallToolReference from '$lib/components/courses/SmallToolReference.svelte';
+	import WhoIsTheCourseFor from '$lib/components/courses/WhoIsTheCourseFor.svelte';
+	import WhatThisCourseOffers from '$lib/components/courses/WhatThisCourseOffers.svelte';
+	import CTA2 from '$lib/components/courses/CTA2.svelte';
 
+</script>
 
 <svelte:head>
 	<title>{seo.title}</title>
@@ -20,6 +32,35 @@
 	<meta name="twitter:description" content={seo.description} />
 	<meta name="twitter:image" content={seo.image} />
 	<meta name="twitter:site" content="@Sachin_Dalal" />
-
 </svelte:head>
-<CourseSurvey />
+<CoursesHeroSection />
+<WhatThisCourseOffers />
+<CTA />
+<!-- <VideoScrollSection src="/blue_purple_bg_1.jpg" /> -->
+<CompaniesMarquee />
+<WhoIsTheCourseFor />
+<SmallToolReference />
+<CTA2 />
+<FAQs />
+<FooterSection />
+<!-- <Section2 /> -->
+<!-- <ActionsSection /> -->
+<!-- <CopilotSection />
+<HowWeDoIt /> -->
+<!-- <ClientSection /> -->
+<!-- <SphereMask />
+<PricingSection /> -->
+<!-- <CtaSection /> -->
+<div>
+ <script>
+    // Apply dark theme on load
+    if (typeof window !== 'undefined') {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+    }
+    onMount(() => {
+	  document.documentElement.classList.remove('dark');
+	  document.documentElement.classList.add('light');
+	});
+ </script>
+</div>
