@@ -2,7 +2,7 @@
 	// From Shadcn Svelte UI Library
 	import { DollarSignIcon, MessageSquareIcon, ScrollIcon, WrenchIcon, LockKeyholeIcon, ChartCandlestickIcon, UserRoundSearchIcon, InstagramIcon, TruckIcon } from 'lucide-svelte';
 	import LandingTitle from "./LandingTitle.svelte";
-  import AdvantagesMarquee from "./AdvantagesMarquee.svelte";
+  import AdvantagesMarquee from "$lib/components/AdvantagesMarquee.svelte";
   import GridPattern from "$lib/components/magic/GridPattern.svelte";
   import { cn } from "$lib/utils";
   import Separator from "$lib/components/ui/separator/separator.svelte";

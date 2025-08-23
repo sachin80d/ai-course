@@ -2,6 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const variants = {
+  hidden: (c) => ({ opacity: 0, x: c }),
+  visible: { opacity: 1, x: 0 }
+};
+
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -32,6 +37,8 @@ export const MenuItem = ({
       </motion.p>
       {active !== null && (
         <motion.div
+          custom={50}
+          variants={variants}
           initial={{ opacity: 0, scale: 0.85, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={transition}
@@ -39,11 +46,15 @@ export const MenuItem = ({
           {active === item && (
             <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4">
               <motion.div
+                custom={50}
+                variants={variants}
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
                 className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
               >
                 <motion.div
+                  custom={50}
+                  variants={variants}
                   layout // layout ensures smooth animation
                   className="w-max h-full p-4"
                 >

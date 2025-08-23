@@ -21,7 +21,7 @@ function addVariablesForColors({ addBase, theme }: any) {
 const config: Config = {
 	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	safelist: ['dark'],
+	safelist: ['light'],
 	// safelist: ['light'],
 	theme: {
 		container: {

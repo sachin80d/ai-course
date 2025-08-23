@@ -170,7 +170,7 @@
     ]
   </script>
   
-  <section class="mx-auto horizontal-card flex flex-col gap-4 items-center justify-center mt-30 max-w-3xl mx-auto">
+  <section class="mx-auto horizontal-card flex flex-col gap-4 items-center justify-center mt-30 max-w-5xl mx-auto">
     <div class="flex flex-col text-center">
         <svelte:component this={Brain} class="mx-auto start-heading mb-5" />
         <h2 class="main-heading">AI Tools You'll Learn About</h2>
@@ -184,7 +184,7 @@
       <div class="mt-10">
         <div class="start-heading my-2 border-b-[1px] border-gray-100 p-2 mb-4 text-center dark:text-gray-100">{t.name}</div>
 
-        <div class="mt-2 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 md:gap-8 lg:grid-cols-4 justify-items-center">
+        <div class="mt-2 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 md:gap-8 lg:grid-cols-6 justify-items-center">
             {#each t.tools as m, idx (idx)}
             <div class="flex items-center gap-3">
                 <!-- Avatar (replaces shadcn Avatar/AvatarImage) -->

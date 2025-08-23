@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { seo } from '$lib';
 	import CoursesHeroSection from '$lib/components/courses/CoursesHeroSection.svelte';
 	import CompaniesMarquee from '$lib/components/landing/CompaniesMarquee.svelte';
@@ -13,7 +13,24 @@
 	import WhoIsTheCourseFor from '$lib/components/courses/WhoIsTheCourseFor.svelte';
 	import WhatThisCourseOffers from '$lib/components/courses/WhatThisCourseOffers.svelte';
 	import CTA2 from '$lib/components/courses/CTA2.svelte';
+    import Curriculum from '$lib/components/courses/Curriculum.svelte';
 
+
+	import ai_course_content from "$lib/components/courses/course-content/AIForEveryone.json"; // Import JSON
+    import { LogIn } from 'lucide-svelte';
+	  // Convert curriculum array to <ul> HTML before passing to Feature215b
+	function convertCurriculum(arr: string[]) {
+		return `<ul class="list-disc list-inside space-y-1">` +
+		arr.map(item => `<li>${item}</li>`).join('') +
+		`</ul>`;
+	}
+
+	// Map cards and convert curriculum -> summary HTML
+	const formattedCards = ai_course_content.modules.map((card, i) => ({
+		...card,
+		video: `/courses/AIForEveryone/course_vid_${i+1}.webm`,
+		curriculum: convertCurriculum(card.curriculum)
+	}));
 </script>
 
 <svelte:head>
@@ -39,6 +56,7 @@
 <!-- <VideoScrollSection src="/blue_purple_bg_1.jpg" /> -->
 <CompaniesMarquee />
 <WhoIsTheCourseFor />
+<Curriculum listofitems={formattedCards}/>
 <SmallToolReference />
 <CTA2 />
 <FAQs />
@@ -54,13 +72,14 @@
 <div>
  <script>
     // Apply dark theme on load
+	console.log("in Course page");
     if (typeof window !== 'undefined') {
         document.documentElement.classList.remove('dark');
         document.documentElement.classList.add('light');
     }
-    onMount(() => {
-	  document.documentElement.classList.remove('dark');
-	  document.documentElement.classList.add('light');
-	});
+    // onMount(() => {
+	//   document.documentElement.classList.remove('dark');
+	//   document.documentElement.classList.add('light');
+	// });
  </script>
 </div>

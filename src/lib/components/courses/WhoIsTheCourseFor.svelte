@@ -68,9 +68,9 @@
 
         <div class="main-heading">Who this course is for?</div>
     </div>
-    <div class="flex flex-row flex-wrap items-center justify-center gap-2 max-w-6xl mx-auto">
+    <div class="flex flex-row flex-wrap items-center justify-center gap-4 max-w-6xl mx-auto">
         {#each list1 as item, i (i)}
-            <div class="inline-flex h-11 shrink-0 items-center gap-2 rounded-full bg-muted p-2 justify-center">
+            <div class="inline-flex h-11 shrink-0 items-center gap-4 rounded-full bg-muted p-2 justify-center">
                 <div class="flex h-8 w-8 overflow-hidden rounded-full bg-background">
                     <img
                         src={`/profile-pics/colored/${item.img_src}`}

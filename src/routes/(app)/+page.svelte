@@ -3,7 +3,7 @@
 	import ActionsSection from '$lib/components/landing/ActionsSection.svelte';
 	import ClientSection from '$lib/components/landing/ClientSection.svelte';
 	import CtaSection from '$lib/components/landing/CtaSection.svelte';
-	import HeroSection from '$lib/components/landing/HeroSection.svelte';
+	import HeroSection from '$lib/components/landing/HeroSection_old.svelte';
 	import PricingSection from '$lib/components/landing/PricingSection.svelte';
 	import SphereMask from '$lib/components/magic/SphereMask/SphereMask.svelte';
 	import HowWeDoIt from '$lib/components/landing/HowWeDoIt.svelte';
@@ -15,8 +15,14 @@
 	import SessionCarousel from '$lib/components/landing/SessionCarousel.svelte';
 	import SignOffNoteSection from '$lib/components/landing/SignOffNoteSection.svelte';
 	import FooterSection from '$lib/components/landing/FooterSection.svelte';
+    import HomePageHeroSection from '$lib/components/landing/HomePageHeroSection.svelte';
+
 	import { onMount } from 'svelte';
 
+	onMount(() => { 
+	document.documentElement.classList.remove('light');
+	document.documentElement.classList.add('dark');
+	});
 </script>
 
 <svelte:head>
@@ -36,9 +42,9 @@
 	<meta name="twitter:image" content={seo.image} />
 	<meta name="twitter:site" content="@Sachin_Dalal" />
 </svelte:head>
-<HeroSection />
+<HomePageHeroSection />
 <!-- <VideoScrollSection src="/blue_purple_bg_1.jpg" /> -->
-<CompaniesMarquee />
+<CompaniesMarquee logo_color="white" />
 <CoursesSection />
 <SessionCarousel />
 <SignOffNoteSection />
@@ -54,13 +60,12 @@
 <div>
 	<script>
 	   // Apply dark theme on load
+	   console.log("in Home page");
+
 	   if (typeof window !== 'undefined') {
 		   document.documentElement.classList.remove('light');
 		   document.documentElement.classList.add('dark');
 	   }
-	   onMount(() => {
-		 document.documentElement.classList.remove('light');
-		 document.documentElement.classList.add('dark');
-	   });
+
 	</script>
-   </div>
+</div>

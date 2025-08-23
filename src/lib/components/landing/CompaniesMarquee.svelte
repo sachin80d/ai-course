@@ -1,5 +1,6 @@
 <script>
     import Marquee from "$lib/components/magic/marquee/Marquee.svelte";
+    export let logo_color = "black";
   
   </script>
   
@@ -11,7 +12,7 @@
   >
     <Marquee pauseOnHover class="[--duration:40s]">
       {#each Array(9).fill(0).map((_, i) => i + 1) as num}
-        <img src="/company_logos/black/{num}.png" alt="{num}.png" class="max-h-8 mr-10" />
+        <img src="/company_logos/{logo_color}/{num}.png" alt="{num}.png" class="max-h-8 mr-10" />
       {/each}
     </Marquee>
 
